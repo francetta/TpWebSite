@@ -1,0 +1,78 @@
+
+body{
+  background-color: rgb(46, 46, 46);
+}
+#navbarSupportedContent{
+  transition: 2s;
+}
+.section1{
+  background-color:rgb(0, 0, 0) ;
+  margin-top: 10%;
+}
+.card-deck{
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card{
+  margin: 3%;
+
+}
+#card2{
+  max-height: 87%;
+}
+#card3{
+  margin-top: -13%;
+}
+.section3{
+  margin-top: 10%;
+  background-color: black;
+  border-radius: 15px;
+}
+#carouselExampleCaptions img{
+  max-height: 300px;
+  object-fit: scale-down; 
+  border-radius: 5px;
+  padding: 1%;
+  border-radius: 10px;
+}
+.section4{
+  max-height: 500p;
+  height: 100%;
+  margin: 10% 0 10% 0;
+  background-color: rgb(0, 0, 0);
+}
+.section4 iframe{
+  margin: 10%;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.card-body{
+  margin: 10% 10% 0 0;
+}
+footer{
+  height:300px;
+  background-color: rgb(39,39,50);
+  float: bottom;
+}
+
+@media screen and (max-width:768px){
+.card-deck{
+  grid-template-columns: repeat(2,1fr);
+  margin: 2%;
+  max-height: 60%;
+}
+.card{
+  margin: 1%;
+}
+.section4 iframe{
+  max-width: 300px;
+  max-height: 250px;
+  width: 75%;
+}
+.footer{
+  max-height:200px;
+}
+}
